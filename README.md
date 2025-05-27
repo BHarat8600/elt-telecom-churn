@@ -11,24 +11,24 @@ An end-to-end ELT pipeline that processes telecom customer churn data, stores it
 - Docker (Containers)
 
 ## Folder Structure
-elt-telecom-churn< br / >
-├── airflow< br / >
-│   ├── dags/
-│   │   └── churn_pipeline_dag.py/
-│   └── Dockerfile/
+elt-telecom-churn
+├── airflow/
+│ ├── dags/
+│ │ └── churn_pipeline_dag.py
+│ └── Dockerfile
 ├── data/
-│   └── telecom_churn.csv/
+│ └── telecom_churn.csv
 ├── etl/
-│   ├── transform.py
-│   └── load_to_sqlserver.py/
+│ ├── transform.py
+│ └── load_to_sqlserver.py
 ├── metabase/
-│   └── Dockerfile/
+│ └── Dockerfile
 ├── sqlserver/
-│   └── init.sql/
-|   └── reporting_table.sql/
-├── docker-compose.yml/
-├── requirements.txt/
-└── README.md/
+│ ├── init.sql
+│ └── reporting_table.sql
+├── docker-compose.yml
+├── requirements.txt
+└── README.md
 
 ## How to Run
 
