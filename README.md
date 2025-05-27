@@ -11,8 +11,8 @@ An end-to-end ELT pipeline that processes telecom customer churn data, stores it
 - Docker (Containers)
 
 ## Folder Structure
-elt-telecom-churn/
-├── airflow/
+elt-telecom-churn< br / >
+├── airflow< br / >
 │   ├── dags/
 │   │   └── churn_pipeline_dag.py/
 │   └── Dockerfile/
